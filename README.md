@@ -64,6 +64,10 @@ Interpreted the displayed results to identify patterns that could inform future 
 The dashboard provides a consolidated view of the bank's term-deposit campaign performance.
 ![Bank term-deposit campaign analysis](Bank%20term-deposit%20campaign%20analysis.PNG)
 
+## Dashboard Preview
+
+![Bank Term-Deposit Campaign Analysis](<Bank term-deposit campaign analysis.PNG>)
+
 Campaign Performance KPIs
 The dashboard displays the following headline metrics:
 Customers Contacted: 4,521
