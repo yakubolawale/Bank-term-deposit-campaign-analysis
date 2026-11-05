@@ -21,21 +21,6 @@ The project aims to:
 - Identify customer segments that may warrant further marketing investigation.
 - Develop practical recommendations for improving campaign effectiveness.
 
-# 📂 Dataset Description
-The analysis uses the Bank Marketing dataset from the UCI Machine Learning Repository.
-The dataset contains information about customers contacted during a bank's direct marketing campaign and whether they subscribed to a term deposit.
-The dataset includes variables relating to:
-- Customer demographics, including age and occupation.
-- Marital status and education.
-- Contact method and contact month.
-- Previous campaign outcomes.
-- Campaign contact history.
-- Subscription outcome.
-The dataset version associated with this analysis contains 4,521 customer records.
-Dataset source: UCI Machine Learning Repository – Bank Marketing
-
-Data note: The source dataset describes a bank marketing campaign conducted in Portugal. It is used here for educational and portfolio purposes and should not be interpreted as actual customer data from a Nigerian bank.
-
 # 🛠 Tools and Technologies
 - Microsoft Excel: Data analysis, KPI calculations, dashboard development, and reporting.
 - Power Query: Data cleaning, transformation, and preparation for analysis.
