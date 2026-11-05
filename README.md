@@ -66,7 +66,7 @@ The dashboard provides a consolidated view of the bank's term-deposit campaign p
 
 ## Dashboard Preview
 
-![Bank Term-Deposit Campaign Analysis](<Bank term-deposit campaign analysis.PNG>)
+![Bank term-deposit campaign analysis](<Bank term-deposit campaign analysis.PNG>)
 
 Campaign Performance KPIs
 The dashboard displays the following headline metrics:
