@@ -21,47 +21,43 @@ The project aims to:
 - Identify customer segments that may warrant further marketing investigation.
 - Develop practical recommendations for improving campaign effectiveness.
 
-# 🛠 Tools and Technologies
-- Microsoft Excel: Data analysis, KPI calculations, dashboard development, and reporting.
-- Power Query: Data cleaning, transformation, and preparation for analysis.
-- Excel PivotTables: Summarising campaign data and comparing subscription outcomes across customer segments.
-- Excel Charts and Visualisations: Presenting campaign performance, conversion rates, and customer segment comparisons through an interactive dashboard.
-- Data Storytelling: Translating analytical findings into practical business insights and marketing recommendations.
+# 📂 Dataset Description
+The analysis uses the Bank Marketing dataset from the UCI Machine Learning Repository. 
+The dataset contains information about customers contacted during a bank's direct marketing campaign and whether they subscribed to a term deposit.
+
+The dataset includes variables relating to:
+
+• Customer demographics, including age and occupation.
+• Marital status and education.
+• Contact method and contact month.
+• Previous campaign outcomes.
+• Campaign contact history.
+• Subscription outcome.
+
+The dataset version associated with this analysis contains 4,521 customer records.
+Dataset source: UCI Machine Learning Repository – Bank Marketing
+Data note: The source dataset describes a bank marketing campaign conducted in Portugal. It is used here for portfolio purpose and should not be interpreted as actual customer data from a Nigerian bank.
 
 # 🔍 Methodology
 The project follows a structured data analysis workflow.
 1. Business Understanding
-Defined the business problem around term-deposit subscription conversion and the efficient allocation of marketing resources.
 2. Data Understanding
-Reviewed the dataset structure, variables, customer characteristics, campaign contact information, and subscription outcomes.
 3. Data Cleaning and Transformation
-Prepared the data for analysis by reviewing data quality, checking variable formats, and organising the fields required for reporting. Specific cleaning procedures should be documented according to the transformations actually performed.
 4. Exploratory Data Analysis
-Examined campaign responses across demographic groups, occupations, contact months, contact methods, and previous campaign outcomes.
 5. KPI Development
-Developed summary metrics to monitor campaign reach, subscriptions, and conversion performance.
 6. Dashboard Development
-Created an interactive Excel dashboard to consolidate key metrics and visual comparisons into a single reporting interface.
 7. Business Interpretation
-Interpreted the displayed results to identify patterns that could inform future campaign targeting and marketing strategy.
 
 # 📈 Dashboard Overview
 The dashboard provides a consolidated view of the bank's term-deposit campaign performance.
 
 ![Bank term-deposit compaign analysis](./Bank%20term-deposit%20compaign%20analysis.PNG)
 
-Campaign Performance KPIs
-The dashboard displays the following headline metrics:
-Customers Contacted: 4,521
-Subscribers: 521
-Overall Conversion Rate: 11.52%
-Previous-Campaign Success: 64.34%, as displayed in the dashboard for the selected previous-campaign segment.
-Conversion Rate by Job
-
+# Conversion Rate by Job
 Compares subscription conversion rates across occupational groups to identify differences in campaign response. These comparisons can help guide further investigation into which groups may respond more favourably to future campaigns.
 
 # Conversion Rate by Age Band
-Examines subscription conversion across age categories. The dashboard indicates that the 65-and-above group has the highest displayed conversion rate, at 37.3%. This result should be interpreted in the context of the number of customers contacted within that age group.
+Examines subscription conversion across age categories. The dashboard indicates that the 65 and above group has the highest displayed conversion rate, at 37.3%. This result should be interpreted in the context of the number of customers contacted within that age group.
 
 # Conversion Rate by Contact Month
 Visualises changes in campaign conversion across contact months to investigate potential differences in response timing.
@@ -80,7 +76,6 @@ The dashboard provides several findings for further business investigation:
 - Contact timing: Monthly conversion patterns provide an opportunity to examine whether campaign timing is associated with differences in subscription response.
 - Contact methods: Subscription outcomes differ across the displayed contact modes. However, a fair comparison should account for the number of customers contacted through each method.
 - Previous campaign history: Historical campaign outcomes may provide useful context for customer segmentation and follow-up planning.
-These observations describe patterns in the dashboard. They do not, by themselves, establish that age, occupation, contact timing, or contact method causes a customer to subscribe.
 
 # 🎯 Strategic Recommendations
 Based on the dashboard's analytical focus, the following actions are recommended for further evaluation:
@@ -92,7 +87,7 @@ Based on the dashboard's analytical focus, the following actions are recommended
 - Conduct controlled experiments: Compare alternative campaign approaches to determine whether proposed targeting or contact changes improve outcomes.
 - Validate segment sizes: Review the number of customers within each age and occupational group before making significant resource-allocation decisions.
 
-# 📌 Business Value
+# 📌 Business Impact
 This project demonstrates how spreadsheet-based business intelligence can support marketing and customer acquisition decisions.
 The analysis provides a framework for:
 - Monitoring direct marketing campaign performance.
@@ -115,14 +110,9 @@ The analysis provides a framework for:
 * Data Storytelling
 * Evidence-Based Decision-Making
 
-⚠️ Limitations
-The dashboard presents descriptive campaign analysis. Differences in conversion rates should not be interpreted as causal relationships.
-Segment sizes, potential confounding factors, campaign costs, and statistical uncertainty should be assessed before making major operational decisions. The project does not claim to provide a validated predictive model unless one is developed and evaluated separately.
-
-# 📚 Dataset Source and Acknowledgement
+# 📚 Dataset Sources
 UCI Machine Learning Repository. Bank Marketing dataset.
 https://archive.ics.uci.edu/dataset/222/bank+marketing
-The dataset is used for educational, analytical, and portfolio demonstration purposes. The project does not represent an official analysis commissioned by the original bank.
 
 # ✅ Conclusion
 The Bank Term-Deposit Campaign Analysis demonstrates how Microsoft Excel can be used to transform marketing campaign data into meaningful business intelligence. By evaluating subscription conversion across customer demographics, occupational groups, contact methods, and campaign history, the project provides a foundation for more informed customer targeting and campaign evaluation.
@@ -130,7 +120,7 @@ The dashboard illustrates how data analysis and visual storytelling can help org
 
 # 👤 Author
 Yakub Olawale Moshood
-Statistician | Data Analyst | Business Intelligence Enthusiast
+Statistician | Data Analyst
 Email: yakubolawale576@gmail.com
 LinkedIn: https://www.linkedin.com/in/olawale-yakub
 GitHub: https://github.com/yakubolawale
